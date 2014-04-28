@@ -1,4 +1,4 @@
-h1. Injector
+### Injector ###
 
 This is a simple, easy and flexible dependency injection library, based on Dart. I use it for my projects. 
 Inspired by [swiftsuspenders](https://github.com/robotlegs/swiftsuspenders).
@@ -19,6 +19,19 @@ Inspired by [swiftsuspenders](https://github.com/robotlegs/swiftsuspenders).
   // get
   var c = injector.get(Cat);
   var c2 = injector.get(Cat, "cat");
+  
+  //inject
+  class InjectTarget {
+    @Inject("cat")
+    Cat cat;
+    @Inject()
+    Dog dog;
+  }
+  
+  var t = new InjectTarget();
+  injector.inject(t);
+  
+  
 
 ```
 
