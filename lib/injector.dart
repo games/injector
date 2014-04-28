@@ -116,3 +116,4 @@ class SingletonProvider implements DependencyProvider {
 }
 
 const unnamedConstructor = const Symbol('');
+const Inject inject = const Inject();

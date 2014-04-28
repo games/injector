@@ -24,7 +24,7 @@ Inspired by [swiftsuspenders](https://github.com/robotlegs/swiftsuspenders).
   class InjectTarget {
     @Inject("cat")
     Cat cat;
-    @Inject()
+    @inject
     Dog dog;
   }
   

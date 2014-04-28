@@ -12,7 +12,7 @@ class Dog {
 class InjectTarget {
   @Inject("cat")
   Cat cat;
-  @Inject()
+  @inject
   Dog dog;
 }
 
