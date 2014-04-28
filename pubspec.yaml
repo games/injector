@@ -1,5 +1,5 @@
 name: valorzhong_injector
-version: 0.0.1
+version: 0.0.2
 author: Valor Zhong <valorzhong@gmail.com>
 description: A simple, easy and flexible dependency injection library, based on Dart
 homepage: https://github.com/games/injector
