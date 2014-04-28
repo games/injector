@@ -1,4 +1,4 @@
-name: valorzhong.injector
+name: valorzhong_injector
 version: 0.0.1
 author: Valor Zhong <valorzhong@gmail.com>
 description: A simple, easy and flexible dependency injection library, based on Dart

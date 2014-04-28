@@ -1,7 +1,7 @@
-library valorzhong.injector;
+library valorzhong_injector;
 
 
-@MirrorsUsed(targets: 'valorzhong.injector')
+@MirrorsUsed(targets: 'valorzhong_injector')
 import 'dart:mirrors' show MirrorsUsed, ClassMirror, InstanceMirror, VariableMirror, reflect, reflectClass;
 
 
