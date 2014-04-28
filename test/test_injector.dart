@@ -1,5 +1,5 @@
 import 'package:unittest/unittest.dart';
-import '../lib/injector.dart';
+import '../lib/valorzhong.injector.dart';
 
 class Cat {
   String name;
