@@ -1,0 +1,10 @@
+name: valorzhong.injector
+version: 0.0.1
+author: Valor Zhong <valorzhong@gmail.com>
+description: A simple, easy and flexible dependency injection library, based on Dart
+homepage: https://github.com/valorzhong/injector
+documentation: https://github.com/valorzhong/injector
+
+dev_dependencies:
+  unittest: any
+
